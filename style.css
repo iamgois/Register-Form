@@ -1,0 +1,118 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+span{
+    color: #00b4d8;
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+    position: fixed;
+    bottom: 10px;
+    color: white;
+}
+
+.copyright a{
+    color: white;
+}
+
+/* Background Div */
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+/* Form Styles */
+
+form{
+    -webkit-box-shadow: 0px 23px 33px 12px rgba(0,0,0,0.41); 
+    box-shadow: 0px 23px 33px 12px rgba(0,0,0,0.41);
+    background-color: #022b3a;
+    width: 30rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+form h1{
+    margin: 20px 0 0 20px;
+}
+
+form p{
+    margin-left: 20px;
+}
+
+/* Inputs Style */
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+input[type="text"]{
+    width: 80%;
+    height: 3rem;
+    margin-top: 50px;
+}
+input[type="email"]{
+    width: 80%;
+    height: 3rem;
+    margin-top: 5px;
+}
+input[type="password"]{
+    width: 80%;
+    height: 3rem;
+    margin-top: 5px;
+}
+input[type="password"]{
+    width: 80%;
+    height: 3rem;
+    margin-top: 5px;
+}
+
+.terms{
+    display: flex;
+    margin-top: 10px;
+}
+
+button{
+    cursor: pointer;
+    width: 50%;
+    height: 3rem;
+    margin-top: 40px;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+
+button:hover{
+    width: 80%;
+    background-color: #00839e;
+}
